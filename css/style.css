@@ -1,0 +1,37 @@
+body, 
+:root {
+    margin: 0;
+    padding: 0;
+}
+
+.full-screen-video-container {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.full-screen-video-container video {
+    z-index: -1;
+    position: absolute;
+    width: auto;
+    height: auto;
+    min-width: 100%;
+    min-height: 100%;
+}
+
+.full-screen-video-content {
+    background-color: aliceblue;
+    
+    margin-top: 10em;
+    padding: 1em 2em;
+
+    font-weight: 700;
+    color: #333;
+    font-size: 2rem;
+
+}
